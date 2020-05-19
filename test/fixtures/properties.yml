@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nama: MyString
+  alamat: MyString
+  harga: 1
+  ruang: 1
+  kamar_mandi: 1
+
+two:
+  nama: MyString
+  alamat: MyString
+  harga: 1
+  ruang: 1
+  kamar_mandi: 1

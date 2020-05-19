@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @property.nama %>
+</p>
+
+<p>
+  <strong>Alamat:</strong>
+  <%= @property.alamat %>
+</p>
+
+<p>
+  <strong>Harga:</strong>
+  <%= @property.harga %>
+</p>
+
+<p>
+  <strong>Ruang:</strong>
+  <%= @property.ruang %>
+</p>
+
+<p>
+  <strong>Kamar mandi:</strong>
+  <%= @property.kamar_mandi %>
+</p>
+
+<%= link_to 'Edit', edit_property_path(@property) %> |
+<%= link_to 'Back', properties_path %>
