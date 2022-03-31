@@ -10,7 +10,7 @@ gem 'rails', '~> 6.0.3'
 #postgresql db support
 gem 'postgresql', '~> 1.0'
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 
 gem 'devise'
 # Use SCSS for stylesheets
